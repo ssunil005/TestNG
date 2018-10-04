@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="109" started-at="2018-09-30T18:04:48Z" finished-at="2018-09-30T18:04:48Z">
+    <groups>
+      <group name="G1">
+        <method signature="TestNGxmlForMethodsBelongtoMultipleGroupNames.methodBelongToGroupG1()[pri:0, instance:com.GroupngsInTestNG.TestNGxmlForMethodsBelongtoMultipleGroupNames@5034c75a]" name="methodBelongToGroupG1" class="com.GroupngsInTestNG.TestNGxmlForMethodsBelongtoMultipleGroupNames"/>
+      </group> <!-- G1 -->
+    </groups>
+    <test name="Test" duration-ms="109" started-at="2018-09-30T18:04:48Z" finished-at="2018-09-30T18:04:48Z">
+      <class name="com.GroupngsInTestNG.TestNGxmlForMethodsBelongtoMultipleGroupNames">
+        <test-method status="PASS" signature="methodBelongToGroupG1()[pri:0, instance:com.GroupngsInTestNG.TestNGxmlForMethodsBelongtoMultipleGroupNames@5034c75a]" name="methodBelongToGroupG1" duration-ms="36" started-at="2018-09-30T18:04:48Z" finished-at="2018-09-30T18:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBelongToGroupG1 -->
+      </class> <!-- com.GroupngsInTestNG.TestNGxmlForMethodsBelongtoMultipleGroupNames -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNGProject2 by groups" duration-ms="139" started-at="2018-10-04T02:27:12Z" finished-at="2018-10-04T02:27:12Z">
+    <groups>
+      <group name="G1FromP2">
+        <method signature="GroupingExampleFromP2.G1FromP2()[pri:0, instance:com.TestNgpackage2.GroupingExampleFromP2@9629756]" name="G1FromP2" class="com.TestNgpackage2.GroupingExampleFromP2"/>
+      </group> <!-- G1FromP2 -->
+      <group name="G1FromP1">
+        <method signature="GroupingExampleFromP1.G1FromP1()[pri:0, instance:com.TestNgpackage1.GroupingExampleFromP1@396a51ab]" name="G1FromP1" class="com.TestNgpackage1.GroupingExampleFromP1"/>
+      </group> <!-- G1FromP1 -->
+    </groups>
+    <test name="GRP-G1FromP2,G1FromP1" duration-ms="139" started-at="2018-10-04T02:27:12Z" finished-at="2018-10-04T02:27:12Z">
+      <class name="com.TestNgpackage1.GroupingExampleFromP1">
+        <test-method status="PASS" signature="G1FromP1()[pri:0, instance:com.TestNgpackage1.GroupingExampleFromP1@396a51ab]" name="G1FromP1" duration-ms="40" started-at="2018-10-04T02:27:12Z" finished-at="2018-10-04T02:27:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G1FromP1 -->
+      </class> <!-- com.TestNgpackage1.GroupingExampleFromP1 -->
+      <class name="com.TestNgpackage2.GroupingExampleFromP2">
+        <test-method status="PASS" signature="G1FromP2()[pri:0, instance:com.TestNgpackage2.GroupingExampleFromP2@9629756]" name="G1FromP2" duration-ms="6" started-at="2018-10-04T02:27:12Z" finished-at="2018-10-04T02:27:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G1FromP2 -->
+      </class> <!-- com.TestNgpackage2.GroupingExampleFromP2 -->
+    </test> <!-- GRP-G1FromP2,G1FromP1 -->
+  </suite> <!-- TestNGProject2 by groups -->
+</testng-results>

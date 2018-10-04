@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="148469" started-at="2018-09-05T06:42:41Z" finished-at="2018-09-05T06:45:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="148469" started-at="2018-09-05T06:42:41Z" finished-at="2018-09-05T06:45:10Z">
+      <class name="com.qa.pahub.ExceptionTypeLimitMagellanCreatePharmacyEOCTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.pahub.ExceptionTypeLimitMagellanCreatePharmacyEOCTest@23d2a7e8]" name="setUp" is-config="true" duration-ms="3969" started-at="2018-09-05T06:42:41Z" finished-at="2018-09-05T06:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="magellanCreatePharmacyEOCTest()[pri:0, instance:com.qa.pahub.ExceptionTypeLimitMagellanCreatePharmacyEOCTest@23d2a7e8]" name="magellanCreatePharmacyEOCTest" duration-ms="143920" started-at="2018-09-05T06:42:45Z" finished-at="2018-09-05T06:45:09Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[Element is no longer valid
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'AGADIA-04', ip: '192.168.1.65', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:34268/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ea8a4489-851e-4a88-8d06-4056d832e25c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: Element is no longer valid
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'AGADIA-04', ip: '192.168.1.65', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:34268/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ea8a4489-851e-4a88-8d06-4056d832e25c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:122)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+at com.qa.pahub.ExceptionTypeLimitMagellanCreatePharmacyEOCTest.magellanCreatePharmacyEOCTest(ExceptionTypeLimitMagellanCreatePharmacyEOCTest.java:147)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- magellanCreatePharmacyEOCTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.pahub.ExceptionTypeLimitMagellanCreatePharmacyEOCTest@23d2a7e8]" name="tearDown" is-config="true" duration-ms="497" started-at="2018-09-05T06:45:09Z" finished-at="2018-09-05T06:45:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=magellanCreatePharmacyEOCTest status=FAILURE method=ExceptionTypeLimitMagellanCreatePharmacyEOCTest.magellanCreatePharmacyEOCTest()[pri:0, instance:com.qa.pahub.ExceptionTypeLimitMagellanCreatePharmacyEOCTest@23d2a7e8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.pahub.ExceptionTypeLimitMagellanCreatePharmacyEOCTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
